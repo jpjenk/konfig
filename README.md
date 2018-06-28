@@ -1,30 +1,30 @@
 # konfig
 
 ## shell
-.zshrc
-.antigen/
-.alias
-.tmux
-iTerm.plist
+* .zshrc
+* .antigen/
+* .alias
+* .tmux
+* iTerm.plist
 
 ## editor
-.vimrc
-.vim [vim-plug]
+* .vimrc
+* .vim [vim-plug]
 
 ## development
-.gitconfig/
+* .gitconfig/
 
 
 ## other tools
-colordiff
-ydiff
-ack
-find
-yank
-fasd
-wc
-lnav
-peco
-tig
-ncdu
-realpath
+* colordiff
+* ydiff
+* ack
+* find
+* yank
+* fasd
+* wc
+* lnav
+* peco
+* tig
+* ncdu
+* realpath
