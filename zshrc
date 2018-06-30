@@ -98,7 +98,6 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 #===================================
 
 # Additional environment variables
-export HOMEBREW_GITHUB_API_TOKEN="ace007b9c2b85f0ad7b92629996632df7613340e"
 export HOMEBREW_NO_EMOJI=1
 export HOMEBREW_NO_ANALYTICS=1
 
