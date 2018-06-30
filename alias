@@ -1,0 +1,47 @@
+# Command line alias definitions (BSD Unix, Zsh)
+# created by jpjenk
+
+## Spelling corection safeties
+alias mv='nocorrect mv'			# move file
+alias mkdir='nocorrect mkdir'	# make directory
+alias rm='nocorrect rm'			# remove file
+
+# # Directory stacks
+# alias pu=pushd			    # push onto the stack
+# alias po=popd			        # back up the stack
+# alias d='dirs -v'		        # show stack
+
+# # Directory listing
+# alias ls='ls -F'			    # normally show item type (ie. /, * or @)
+# #alias ll='ls -lhFrS'		    # directory list (reverse size order)
+# alias la='ls -alkF'		    # include hidden (dot) filed in list
+# alias lsa='ls -ld .*'		    # only file beginning with "."
+# alias lsd='ls -ld *(-/DN)'	# only dirs/symlinks that point to them
+
+# Miscellaneous shortcuts
+alias h=history			        # shell command history
+alias grep=egrep		        # use 'grep -e' or extended regex grep
+alias cl='clear'		        # clear viewable terminal area
+alias pbc='pbcopy'		        # copy to system Pasteboard
+alias pbp='pbpaste'		        # paste from system Pasteboard
+alias diff='colordiff'	        # use colorization wrapper for diff command
+#alias ssh='ssh -X'		        # enable X11 tunneling through ssh
+alias psa='ps aux'              # full list of running processes
+alias rp='realpath'             # show full path to file from root
+alias top='top -u -i50'	        # sort processes by load
+alias df='df -h'		        # disk usage in Ki/Gb
+alias mid='uname -a'            # machine ID: hostname and OS
+
+# Python3 aliases
+alias py='python3'              # CPython 3.x reference interpreter
+alias ipy='ipython3'            # Interactive REPL
+alias pip='pip3'                # Python Package Manager
+alias pydoc='pydoc3'            # Inline documentation
+alias pypy='pypy3'              # Self-hosted interpreter and JIT compiler
+# alias pip-update='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
+                                # [above] Update Cheese Shop packages
+
+# Commandline tools
+alias mdless='pandoc -s -f markdown -t man \!* | groff -T utf8 -man | less'
+                                # [above] inline markdown viewer
+alias ql='qlmanage -p'	        # open file with QuickLook generator
