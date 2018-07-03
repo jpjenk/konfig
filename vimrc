@@ -176,7 +176,7 @@ autocmd filetype yaml,xml,markdown set shiftwidth=2 tabstop=2 softtabstop=2
 """"""""""""""""""""""""""""""""
 " Quick edit .vimrc
 """"""""""""""""""""""""""""""""
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :split $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 
