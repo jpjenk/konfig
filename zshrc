@@ -31,7 +31,7 @@ antigen bundle zsh-users/zsh-completions
 
 ## OS specific bundles
 antigen bundle osx
-antigen bundle brew
+antigen eundle brew
 
 ## Load a theme
 antigen theme robbyrussell
@@ -98,6 +98,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin
 #===================================
 
 # Additional environment variables
+source ./.github_tokens
 export HOMEBREW_NO_EMOJI=1
 export HOMEBREW_NO_ANALYTICS=1
 
