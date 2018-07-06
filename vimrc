@@ -184,7 +184,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " Buffers navigation
 """"""""""""""""""""""""""""""""
 " nnoremap <F5> :buffers<CR>:buffer<Space>
-nnoremap <leader>z :buffers<cr>:b<space>
+nnoremap <leader>b :buffers<cr>:b<space>
 
 
 """"""""""""""""""""""""""""""""
@@ -214,8 +214,8 @@ set mouse=a
 """"""""""""""""""""""""""""""""
 " Debugger commands
 """"""""""""""""""""""""""""""""
-map <silent> <leader>b oimport pdb; pdb.set_trace()<esc>
-map <silent> <leader>B Oimport pdb; pdb.set_trace()<esc>
+map <silent> <leader>db oimport pdb; pdb.set_trace()<esc>
+map <silent> <leader>dB Oimport pdb; pdb.set_trace()<esc>
 
 
 """"""""""""""""""""""""""""""""
