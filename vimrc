@@ -106,7 +106,7 @@ set encoding=utf-8
 
 " Buffer backup
 set backup
-set backupdir=~/.editor-backup
+set backupdir=~/.vim_swap
 " set nowritebackup
 " set noswapfile
 
