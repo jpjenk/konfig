@@ -31,7 +31,7 @@ antigen bundle zsh-users/zsh-completions
 
 ## OS specific bundles
 antigen bundle osx
-antigen eundle brew
+antigen bundle brew
 
 ## Load a theme
 antigen theme robbyrussell
