@@ -81,6 +81,9 @@ export KEYTIMEOUT=1
 export PATH=/usr/local/sbin:$PATH
 export MANPATH=/usr/local/share/man:$MANPATH
 
+# Local python tools
+export PATH=/Users/jpjenk/Library/Python/3.7/bin:$PATH
+
 # Package management utilities for PyPy
 # export PATH=$PATH:/usr/local/share/pypy3
 
