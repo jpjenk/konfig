@@ -33,8 +33,8 @@ alias df='df -h'		        # disk usage in Ki/Gb
 alias mid='uname -a'            # machine ID: hostname and OS
 
 # Python3 aliases
-alias py='python3'              # CPython 3.x reference interpreter
-alias ipy='ipython'            # Interactive REPL
+alias pi='python3'              # CPython 3.x reference interpreter
+alias ipy='ipython'             # Interactive REPL
 alias pip='pip3'                # Python Package Manager
 alias pydoc='pydoc3'            # Inline documentation
 alias pypy='pypy3'              # Self-hosted interpreter and JIT compiler
